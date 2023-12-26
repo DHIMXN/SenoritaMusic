@@ -8,24 +8,24 @@ async def play_logs(message, streamtype):
         if message.chat.username:
             chatusername = f"@{message.chat.username}"
         else:
-            chatusername = "ᴩʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ"
+            chatusername = "Mᴜsɪᴄ Lᴏɢs !! 🗞️"
         logger_text = f"""
 **━━━━━━━━━━━━━━━**
-**💞 {MUSIC_BOT_NAME} ᴍᴜsɪᴄ ʟᴏɢs **
+**🐼 {MUSIC_BOT_NAME} Mᴜsɪᴄ Lᴏɢs **
 **━━━━━━━━━━━━━━━**
-**🌹️ 𝙲𝙷𝙰𝚃 𝙽𝙰𝙼𝙴 : >** {message.chat.title} [`{message.chat.id}`]
+**💗 Cʜᴀᴛ Nᴀᴍᴇ : >** {message.chat.title} [`{message.chat.id}`]
 **━━━━━━━━━━━━━━━**
-**🥀 𝙽𝙰𝙼𝙴 : ›** {message.from_user.mention}
+**🐼 Nᴀᴍᴇ : ›** {message.from_user.mention}
 **━━━━━━━━━━━━━━━**
-**🌸 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 : ›** @{message.from_user.username}
+**💗 Usᴇʀɴᴀᴇ : ›** @{message.from_user.username}
 **━━━━━━━━━━━━━━━**
-**🌷 𝚄𝚂𝙴𝚁 𝙸𝙳  : ›** `{message.from_user.id}`
+**🐼 Usᴇʀ Iᴅ  : ›** `{message.from_user.id}`
 **━━━━━━━━━━━━━━━**
-**🌿 𝙲𝙷𝙰𝚃 𝙻𝙸𝙽𝙺 : >** {chatusername}
+**💗 Cʜᴀᴛ Lɪɴᴋ : >** {chatusername}
 **━━━━━━━━━━━━━━━**
-**🌻 𝚂𝙴𝙰𝚁𝙲𝙷𝙴𝙳 𝙵𝙾𝚁 : >** {message.text}
+**🐼 Sᴇᴀʀᴄʜᴇᴅ Fᴏʀ : >** {message.text}
 **━━━━━━━━━━━━━━━**
-**💐 𝚂𝚃𝚁𝙴𝙰𝙼 𝚃𝚈𝙿𝙴 : >** {streamtype}
+**💗 Sᴛʀᴇᴀᴍ Tʏᴘᴇ : >** {streamtype}
 **━━━━━━━━━━━━━━━**"""
         if message.chat.id != LOG_GROUP_ID:
             try:
